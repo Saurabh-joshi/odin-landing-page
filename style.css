@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/****************** Header *******************/
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+
+.header-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.logo{
+    padding: 12px 0px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.logo img{
+    max-width: 40px;
+    height: auto;
+}
+
+.logo div{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.header-btn{
+    display: flex;
+    align-items: center;
+    padding: 8px 0px;
+    gap: 24px;
+    font-size: 18px;
+}
+
+.header-btn a{
+    color: white;
+}
+
+/****************** Hero *******************/
+.hero{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.hero-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    height: 250px;
+}
+
+.modal{
+    display: flex;
+    /* flex: 1; */
+    width: 400px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-text{
+    font-size: 40px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.modal button{
+    margin-top: 8px;
+    width: 120px;
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+}
+
+.hero img{
+    max-width: 630px;
+    height: 100%;
+    flex: 1;
+}
+
+/****************** information *******************/
+#information{
+    display: flex;
+    justify-content: center;
+}
+
+.information-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 80%;
+}
+
+.information-title{
+    font-size: 36px;
+    font-weight: 800;
+    margin: 32px 0;
+}
+
+.team-container{
+    display: flex;
+    gap: 30px;
+    /* background-color: aquamarine; */
+}
+
+.single-item{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.single-item img{
+    border: rgb(14, 143, 223) 4px solid;
+    border-radius: 7%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.single-item div{
+    font-size: larger;
+    margin-bottom: 32px;
+    font-weight: 600;
+}
+
+/****************** Quote *******************/
+#quote{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.quote-container{
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text{
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-source{
+    font-size: 36px;
+    font-weight: 600;
+    align-self: flex-end;
+}
+
+
+/****************** Signup *******************/
+#signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.signup-main-container{
+    box-sizing: border-box;
+    width: 80%;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 45px 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-header{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.signup-main-container button{
+    margin-top: 8px;
+    width: 120px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    font-weight: 700;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+}
+
+/****************** Footer *******************/
+.footer{
+    background-color: #1F2937;
+    padding: 38px 0;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/****************** Misc *******************/
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
